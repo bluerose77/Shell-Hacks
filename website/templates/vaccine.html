@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<style>
+		*{	
+		}
+		.child{
+    float: right;
+		}
+		@media (min-width: 768px){
+			
+		.parent{
+		display: flex;	
+		}
+		}
+	.div1 {
+}
+    body {
+    background-color: #CAE0F1;
+    text-align: center;
+}
+</style>
+<meta charset="utf-8">
+</head>
+<body>
+
+<section class="parent">
+  <section class="child" style="font-size: 80px; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">
+  <strong> COVID-19 Vaccination&nbsp;&nbsp;</strong> </section>
+  <section class="child" style="font-size: 80px; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">
+   </section>
+	
+</section>
+	<br>
+	<br>
+<section class="parent">
+  <section class="child" style="font-size: 30px">
+	<span style="font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span style="text-align: right"> </span></section>
+	<span style="text-align: right">
+	<section class="child" style="font-size: 30px; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;"  
+	>
+	</section>
+  </span>
+  <section class="child" style="font-size: 30px"  
+	> </section>
+</section>
+	<br>
+	
+<section class="parent">
+	<table 
+    width="500" 
+    border="1"
+    class="div" 
+    style="border:1px solid black;margin-left:auto;margin-right:auto;">
+    <thead>
+      <tr>
+          <th>Day</th>
+          <th>Total Vaccination</th>
+          <th>People Vaccinated</th>
+          <th>People Fully Vaccinated</th>
+          <th>Population</th>
+          
+      </tr>
+  </thead>
+	  <tbody>
+	    {% for row in output_data%}
+                    <tr>
+                        <td>{{row[0]}}</td>
+                        <td>{{row[1]}}</td>
+                        <td>{{row[2]}}</td>
+                        <td>{{row[3]}}</td>
+                        <td>{{row[4]}}</td>
+                        
+                        
+                        
+                    </tr>
+                {% endfor %}
+	   
+        </tr>
+      </tbody>
+  </table>
+		<section class="parent">
+	
+		</section>
+	
+</section>
+	<br>
+	<br>
+	<br>
+	<section class="parent">
+	<section class="child" style="font-size: 14px; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Website brought to you by: Oraz, Rose, Anubhav, and Austen</section>
+</section>
+	<section>
+		<br>
+		<br>
+	</section>
+<img src="AboutPageAssets/images/Web_Banner4x.png" width="800" height="400" alt=""/>    </section>
+</body>
+</html>
